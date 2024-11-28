@@ -8,6 +8,6 @@ def sum_series(n):
     for i in range(1, n+1):
         series_sum += (i **i)/factorial(i)
     return series_sum
-n = int(input("enter the umber of terms (n):"))
+n = int(input("enter the number of terms (n):"))
 result = sum_series(n)
 print(f"the sum of the series up to {n} terms is:{result}")
