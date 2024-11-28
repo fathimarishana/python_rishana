@@ -27,7 +27,7 @@ def main():
     elif choice == 4:
         radius = float(input("enter the radius of the sphere:"))
         print("sphere area:",sphere_area(radius))
-        print("sphere perimeter(circumference):",sphere_perimeter(redius))
+        print("sphere perimeter(circumference):",sphere_perimeter(radius))
     else:
         print("invalid choice! please select a valid option.")
 if __name__ == "__main__":
